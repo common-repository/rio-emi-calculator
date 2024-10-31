@@ -1,0 +1,402 @@
+/*==============================================================
+ * Rio Emi Calculator Styles
+ *============================================================*/
+.emi-container-rio input[type="radio"] {
+  margin: 0 10px 0 10px;
+}
+.emi-container-rio .inpt-clc input:focus {
+  outline: none;
+}
+
+.emi-container-rio h2 {
+  color: #03f;
+}
+.emi-container-rio .emi-result {
+  color: #006;
+  margin-top: 10px;
+}
+
+.emi-container-rio #wrapper {
+  border: 1px solid #000;
+  padding-bottom: 20px;
+  margin-top: 10%;
+}
+.emi-container-rio .slidecontainer {
+  width: 100%;
+  float: left;
+}
+.emi-container-rio .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.emi-container-rio .slider:hover {
+  opacity: 1;
+}
+.emi-container-rio .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+.emi-container-rio .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.emi-container-rio .rio-calculator-section {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border: thin solid black;
+}
+
+.emi-container-rio .inner-content p {
+  text-align: center !important;
+}
+.emi-container-rio .rio-calculator-section .form-group label {
+  color: #00334e;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0 0 0;
+  /* opacity: .5; */
+  text-transform: uppercase;
+}
+.emi-container-rio .clc-sec {
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+}
+.emi-container-rio .clc-sec:first-of-type {
+  margin: 0;
+}
+.emi-container-rio .rio-calculator-section #radio-group {
+  width: 100%;
+  display: inline-block;
+}
+.rio-calculator-section #radio-group .form-group {
+  display: inline-block;
+}
+.emi-container-rio .rio-calculator-section #radio-group .form-group input[type="radio"] {
+  display: inline-block;
+}
+.emi-container-rio .rio-calculator-section #radio-group .form-group label {
+  font-size: 14px;
+  display: inline-block;
+}
+.emi-container-rio .rio-calculator-section #radio-group .form-group label:hover {
+  cursor: pointer;
+}
+.emi-container-rio .inpt-clc {
+  margin: 0 0 20px;
+  position: relative;
+  float: right;
+  top: 0;
+}
+.emi-container-rio .rio-icon {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 15px;
+  font-family: "FontAwesome4";
+}
+
+.emi-container-rio .rio-icon i { 
+  line-height: 17px;  
+  font-size: 17px;
+  font-weight: 400;
+  vertical-align: middle;
+  font-family: "FontAwesome4";
+}
+.emi-container-rio .rio-icon i.fa.fa-inr { 
+  line-height: 13px;
+  font-size: 16px;
+}
+.emi-container-rio .rio-icon i.fa.fa-gbp,.emi-container-rio .rio-icon i.fa.fa-euro { 
+  line-height: 16px;  
+  font-size: 16px;
+}
+.emi-container-rio .rio-icon i.fa.fa-dollar { 
+  line-height: 16px;  
+  font-size: 15px;
+}
+.emi-container-rio .rio-icon i.fa.fa-yen { 
+  line-height: 15px;  
+  font-size: 16px;
+}
+.emi-container-rio .rio-icon i.fa.fa-percent { 
+  line-height: 17px;
+  font-size: 14px;
+}
+
+.emi-container-rio .inpt-clc input {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid #00334e;
+  color: #00334e;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 0;
+  /* text-align: right; */
+  padding-left: 32px;
+  width: 130px;
+  height: 35px;
+}
+
+.emi-container-rio input#amount { 
+  padding: 0 9px 0 22px;
+  font-size: 18px;
+}
+.emi-container-rio input#inrate {
+  padding: 0 9px 0 25px;
+  font-size: 18px;
+} 
+.emi-container-rio input#emiMonth {
+  padding: 0 9px 0 13px;
+}
+
+.emi-container-rio .ui-slider-horizontal {
+  height: 6px !important;
+}
+.emi-container-rio .ui-slider .ui-slider-handle {
+  background: #fff !important;
+  border: solid 1.3px #c1c1c1 !important;
+  box-shadow: 0 7px 39px 0 rgba(0, 0, 0, 0.15) !important;
+  height: 25px !important;
+  position: absolute;
+  width: 25px !important;
+  border-radius: 50%;
+}
+.emi-container-rio .ui-slider .ui-slider-handle:hover {
+  cursor: pointer;
+}
+
+.emi-container-rio .ui-slider-horizontal .ui-slider-handle {
+  top: -9px !important;
+}
+.emi-container-rio .slidecontainer .ui-widget-content {
+  background-color: #284695 !important;
+}
+
+.rio-calculator-section {
+  border: none;
+}
+
+.emi-result {
+  text-align: left;
+  font-size: 30px;
+}
+.rio-calculator-section {
+  padding-top: 0;
+}
+
+.emi-container-rio {
+  box-shadow: 3px 3px 30px rgb(194, 194, 194);
+  margin: 0 0 20px 0;
+  border: 1px solid rgb(233, 233, 233);
+  width: 100%;
+}
+
+.emi-container-rio .btn {
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px rgb(185, 185, 185);
+}
+.emi-container-rio .row {
+  height: 100%;
+  display: flex;
+}
+.emi-container-rio .result-ri {
+  width: 100%;
+  color: #fff;
+  padding: 33px 30px !important;
+  background-image: linear-gradient(rgb(97, 179, 247), rgb(0, 81, 173));
+}
+.emi-container-rio .result-ri .emi-result {
+  color: #fff;
+}
+
+.emi-container-rio .result-ri .rs-sc {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.emi-container-rio .result-ri .rs-sc a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.emi-container-rio .result-ri h2  {
+  margin: 0 0 0 0;
+  padding: 0;   
+}
+
+.emi-container-rio .result-ri h2::before  {
+  display: none;
+}
+
+.emi-container-rio .result-ri .rs-sc #result {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-size: 24px; 
+  font-weight: 600;
+}
+.emi-container-rio .result-ri .rs-sc #total_interest {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-size: 24px; 
+  font-weight: 600;
+}
+
+.emi-container-rio .result-ri .rs-sc #downPayment {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-size: 24px; 
+  font-weight: 600;
+}
+
+.emi-container-rio .rio-calculator-section {
+  width: 100%;
+  background-color: #fff;
+  /* padding-left: 30px; */
+  padding: 33px 30px !important;
+}
+/***Checkbox Style***/
+.emi-container-rio .rio-calculator-section #radio-group .form-group:last-of-type {
+  margin-left: 15px;
+}
+.emi-container-rio .rio-calculator-section #radio-group .form-group input[type="radio"] {
+  vertical-align: middle;
+}
+
+/***Button Style***/
+.emi-container-rio button#rio-emi-calculate {
+  padding: 9px 17px
+;
+  margin-right: 8px;
+  font-size: 14px; 
+}
+.emi-container-rio button#reset {
+  padding: 9px 17px
+;
+  font-size: 14px; 
+}
+.emi-container-rio button#charts {
+  padding: 9px 17px
+;
+  font-size: 14px; 
+}
+
+text[text-anchor] {   
+  fill: black;
+}
+text[text-anchor] {   
+  fill: black !important;
+}
+
+@media screen and (max-width: 991px) {
+  .emi-container-rio .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 464px) {
+  .emi-container-rio .rio-calculator-section .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .emi-container-rio .inpt-clc {
+    float: left;
+  }
+  .emi-container-rio .clc-sec {
+    margin-top: 28px;
+  }
+
+  .emi-container-rio .rio-element-disabled {
+    width: 130px !important;
+  }
+  .emi-container-rio #piechart {
+    width: 350px;
+    height: 250px;
+  }
+
+  g[column-id="Principal Amount"],
+  g[column-id="Total Interest"] {
+    display: none;
+  }
+  .rect {
+    width: 0;
+  }
+}
+
+#chart-modal {
+  background: #fff;
+  box-shadow: 3px 3px 30px rgb(194, 194, 194);
+}
+#chart-modal .modal-header {
+  text-align: right;
+}
+
+#chart-modal .modal-header .close {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0;
+}
+
+/****update-17-11-2021-****/
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chart-modal {
+  padding: 0 !important;
+}
+#chart-modal rect {
+  width: 0 !important;
+}
+g.google-visualization-tooltip {
+  pointer-events: none;
+}
+
+g text {
+  pointer-events: none;
+}
+
+g.google-visualization-tooltip text {
+  pointer-events: none;
+}
+
+/**Close button***/
+#chart-modal .modal-header .close { 
+  height: auto !important;  
+  font-size: 18px !important;
+  line-height: 39px !important;
+  font-weight: 600 !important;
+  text-decoration: none;
+}
+
+/**Right panel style***/
+.emi-container-rio .result-ri i {
+  font-family: "FontAwesome4";
+  font-size: 22px;
+  padding: 0 2px 0 0;
+}
